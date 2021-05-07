@@ -1,0 +1,83 @@
+# Made by nktfh100
+
+main-world: world
+
+# PlaceholderAPI placeholders:
+# %time_minute% - Current minute
+# %time_hour% - Current hour
+# %time_month_day% - Current month day (0 - 31)
+# %time_week_day% - Current week day name
+# %time_month% - Current month number
+# %time_month_name% - Current month name
+# %time_year% - Current year
+
+# In seconds
+signs-update-interval: 60
+
+# Print current time every second
+debug: false
+
+# %minute% - Current minute
+# %hour% - Current hour
+# %month_day% - Current month day (0 - 31)
+# %week_day% - Current week day name
+# %month% - Current month number
+# %month_name% - Current month name
+# %year% - Current year
+calendar-title: "&e&l%week_day% the %month_day% - %month_name% - %month%"
+
+# Signs placeholders:
+# %m% - Current minute
+# %h% - Current hour
+# %md% - Current month day (0 - 31)
+# %wd% - Current week day name
+# %mo% - Current month number
+# %mn% - Current month name
+# %y% - Current year
+
+week-days:
+   "1": "Sunday"
+   "2": "Monday"
+   "3": "Tuesday"
+   "4": "Wednesday"
+   "5": "Thursday"
+   "6": "Friday"
+   "7": "Saturday"
+
+months:
+   "1": 
+      name: "January"
+      days: 31
+   "2":
+      name: "Fabuary"
+      days: 28
+   "3": 
+      name: "March"
+      days: 31
+   "4":
+      name: "April"
+      days: 30
+   "5":
+      name: "May"
+      days: 31
+   "6":
+      name: "June"
+      days: 30
+   "7":
+      name: "July"
+      days: 31
+   "8":
+      name: "August"
+      days: 31
+   "9":
+      name: "September"
+      days: 30
+   "10":
+      name: "October"
+      days: 31
+   "11":
+      name: "November"
+      days: 30
+   "12":
+      name: "December"
+      days: 31

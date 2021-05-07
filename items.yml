@@ -1,0 +1,39 @@
+# Made by nktfh100
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# For custom heads:
+# Set the 'mat' value:
+# @TEXTURE_VALUE@ - Example: '@eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViZDg1YjdmOWU2MjIyYjM5NTQ1MWFkYjQ2Yjc2YTYyZjdlOTVkYTZmYmY3ZWZlNzE1Yzc4MzQ1NTE0MCJ9fX0=@'
+
+
+# Placeholders:
+# %minute% - Current minute
+# %hour% - Current hour
+# %month_day% - Current month day (0 - 31)
+# %week_day% - Current week day name
+# %month% - Current month number
+# %month_name% - Current month name
+# %year% - Current year
+
+items:
+   # The seven items at the top showing each day name
+   calendar_top-day:
+      # %value% The day name
+      title: "&a%value%"
+      mat: BLUE_STAINED_GLASS_PANE
+   # Each day square
+   calendar_square:
+      # %value% The day number
+      title: "&e&l%value%"
+      mat: WHITE_STAINED_GLASS_PANE
+      # When this day is the current day
+      title2: "&a&l%value%"
+      mat2: LIME_STAINED_GLASS_PANE
+      # When the square if from last month
+      title3: "&e%value%"
+      mat3: GLASS_PANE
+   calendar_week-numbers:
+      # %value% Week number
+      title: "&9&lWeek %value%"
+      mat: GRAY_STAINED_GLASS_PANE
+   calendar_background:
+      mat: AIR
